@@ -49,4 +49,37 @@ app.MapPost("anime", (CreateAnimeDTO p) =>
     return Results.CreatedAtRoute(GetAnimeEndPointName, new { id = dto.Id }, dto);
 });
 
+app.MapPut("anime/{id}", (int id, UpdateAnimeDTO update) =>
+{
+
+    var index = AnimeRecords.FindIndex(anime => anime.Id == id);
+
+    if (index != -1)
+    {
+
+        AnimeRecords[index] = new Anime(
+            id,
+            update.Name,
+            update.Date
+        );
+
+    }
+
+    return Results.NoContent();
+
+});
+
+app.MapDelete("anime/{id}", (int id) =>
+{
+
+    AnimeRecords.RemoveAll(anime => anime.Id == id);
+
+
+
+
+
+    return Results.NoContent();
+
+});
+
 app.Run();

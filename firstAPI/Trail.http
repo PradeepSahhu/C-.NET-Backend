@@ -19,3 +19,16 @@ Content-Type: application/json
     "Name":"Jujutsu Kaisen",
     "Date": "2011-11-18"
 }
+
+###
+PUT http://localhost:5187/anime/2
+Content-Type: application/json
+
+{
+    "Name":"Attack on Titan",
+    "Date": "2020-01-01"
+}
+
+
+###
+DELETE http://localhost:5187/anime/3

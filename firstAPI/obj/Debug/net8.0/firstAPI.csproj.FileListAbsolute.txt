@@ -23,3 +23,4 @@
 /Users/pradeepsahu/Desktop/c#/firstAPI/obj/Debug/net8.0/firstAPI.pdb
 /Users/pradeepsahu/Desktop/c#/firstAPI/obj/Debug/net8.0/firstAPI.genruntimeconfig.cache
 /Users/pradeepsahu/Desktop/c#/firstAPI/obj/Debug/net8.0/ref/firstAPI.dll
+/Users/pradeepsahu/Desktop/c#/firstAPI/obj/Debug/net8.0/firstAPI.sourcelink.json
