@@ -1,0 +1,21 @@
+GET http://localhost:5187
+
+
+
+###
+GET http://localhost:5187/anime
+
+###
+
+GET http://localhost:5187/anime/3
+
+
+###
+
+POST http://localhost:5187/anime
+Content-Type: application/json
+
+{
+    "Name":"Jujutsu Kaisen",
+    "Date": "2011-11-18"
+}

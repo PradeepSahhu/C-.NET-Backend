@@ -1,0 +1,14 @@
+/Users/pradeepsahu/Desktop/c#/basics/bin/Debug/net8.0/basics
+/Users/pradeepsahu/Desktop/c#/basics/bin/Debug/net8.0/basics.deps.json
+/Users/pradeepsahu/Desktop/c#/basics/bin/Debug/net8.0/basics.runtimeconfig.json
+/Users/pradeepsahu/Desktop/c#/basics/bin/Debug/net8.0/basics.dll
+/Users/pradeepsahu/Desktop/c#/basics/bin/Debug/net8.0/basics.pdb
+/Users/pradeepsahu/Desktop/c#/basics/obj/Debug/net8.0/basics.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pradeepsahu/Desktop/c#/basics/obj/Debug/net8.0/basics.AssemblyInfoInputs.cache
+/Users/pradeepsahu/Desktop/c#/basics/obj/Debug/net8.0/basics.AssemblyInfo.cs
+/Users/pradeepsahu/Desktop/c#/basics/obj/Debug/net8.0/basics.csproj.CoreCompileInputs.cache
+/Users/pradeepsahu/Desktop/c#/basics/obj/Debug/net8.0/basics.dll
+/Users/pradeepsahu/Desktop/c#/basics/obj/Debug/net8.0/refint/basics.dll
+/Users/pradeepsahu/Desktop/c#/basics/obj/Debug/net8.0/basics.pdb
+/Users/pradeepsahu/Desktop/c#/basics/obj/Debug/net8.0/basics.genruntimeconfig.cache
+/Users/pradeepsahu/Desktop/c#/basics/obj/Debug/net8.0/ref/basics.dll
