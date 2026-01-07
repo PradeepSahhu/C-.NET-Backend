@@ -1,0 +1,45 @@
+name: .NET Build and Test
+
+on:
+  push:
+    branches: [main, master, develop]
+  pull_request:
+    branches: [main, master, develop]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Restore dependencies for basics
+        run: dotnet restore basics/basics.csproj
+
+      - name: Build basics
+        run: dotnet build basics/basics.csproj --configuration Release --no-restore
+
+      - name: Restore dependencies for firstAPI
+        run: dotnet restore firstAPI/firstAPI.csproj
+
+      - name: Build firstAPI
+        run: dotnet build firstAPI/firstAPI.csproj --configuration Release --no-restore
+
+      - name: Test basics
+        run: dotnet test basics/basics.csproj --configuration Release --no-build --verbosity normal
+        continue-on-error: true
+
+      - name: Test firstAPI
+        run: dotnet test firstAPI/firstAPI.csproj --configuration Release --no-build --verbosity normal
+        continue-on-error: true
+
+      - name: Run basics console app
+        run: dotnet run --project basics/basics.csproj --configuration Release --no-build
+        continue-on-error: true
+        timeout-minutes: 1
