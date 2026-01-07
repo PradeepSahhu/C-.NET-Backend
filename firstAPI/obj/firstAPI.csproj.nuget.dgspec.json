@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pradeepsahu/Desktop/c#/firstAPI/firstAPI.csproj": {}
+    "/Users/pradeepsahu/Desktop/C-.NET-Backend/firstAPI/firstAPI.csproj": {}
   },
   "projects": {
-    "/Users/pradeepsahu/Desktop/c#/firstAPI/firstAPI.csproj": {
+    "/Users/pradeepsahu/Desktop/C-.NET-Backend/firstAPI/firstAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pradeepsahu/Desktop/c#/firstAPI/firstAPI.csproj",
+        "projectUniqueName": "/Users/pradeepsahu/Desktop/C-.NET-Backend/firstAPI/firstAPI.csproj",
         "projectName": "firstAPI",
-        "projectPath": "/Users/pradeepsahu/Desktop/c#/firstAPI/firstAPI.csproj",
+        "projectPath": "/Users/pradeepsahu/Desktop/C-.NET-Backend/firstAPI/firstAPI.csproj",
         "packagesPath": "/Users/pradeepsahu/.nuget/packages/",
-        "outputPath": "/Users/pradeepsahu/Desktop/c#/firstAPI/obj/",
+        "outputPath": "/Users/pradeepsahu/Desktop/C-.NET-Backend/firstAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/pradeepsahu/.nuget/NuGet/NuGet.Config"
